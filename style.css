@@ -356,3 +356,8 @@ height: 16px;}
 height: 420px;
 background: #F3F6FA;
 padding-top: 70px;}
+.logo{margin-left: 15px; margin-top: 7px;}
+#final{display: grid;
+grid-template-columns: 1fr 1.2fr 1.2fr;
+grid-template-rows: 2fr 0.5fr;}
+#final div{border: solid 1px black;}

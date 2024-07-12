@@ -2,6 +2,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     width: 100%;
+    
 }
 
 header {
@@ -179,6 +180,17 @@ header svg {
     font-weight: 800;
     margin-left: 20px;
 }
+#search2{background-color: #7fad39;
+    height: 47px;
+        width: 100px;
+    justify-content: center;
+    font-family: inherit;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    align-items: center;
+text-align: center;
+top: 0;}
 
 #what {
     width: 70%;
@@ -281,11 +293,6 @@ header svg {
     width: 900px;
     align-items: center;
 }
-
-#sgrid div {
-border: solid 1px black;
-}
-
 #img1 {
     width: 270px;
 }
@@ -309,9 +316,7 @@ border: solid 1px black;
 }
 
 #tgrid div {
-    border: solid 1px black;
-    height: 30px;
-}
+    height: 30px;}
 
 .l-inicial {
     margin-top: 20px;
@@ -340,13 +345,9 @@ right: 100px;
     color: #252525;
     font-weight: 700;}
 
-    #blog{display: flex;
-        border: solid 1px black;
-
-    }
-#blog div{border: solid 1px black;}
+    #blog{display: flex;}
 figure ul{height: 16px;
-fill: #6f6f6f;
+color: #6f6f6f;
 display: flex;
 list-style: none;
 }
@@ -356,8 +357,64 @@ height: 16px;}
 height: 420px;
 background: #F3F6FA;
 padding-top: 70px;}
-.logo{margin-left: 15px; margin-top: 7px;}
+#logo1{position: relative;
+left: 270px;
+top: 20px;}
+.adress{margin-top: 20px;}
 #final{display: grid;
-grid-template-columns: 1fr 1.2fr 1.2fr;
-grid-template-rows: 2fr 0.5fr;}
+grid-template-columns: 1fr 1.2fr 1.3fr;
+grid-template-rows: 2fr 0.4fr;
+width: 100%;
+border: solid 1px black;}
+.useful{color: #1c1c1c;
+    font-weight: 700;
+    position: relative;}
 #final div{border: solid 1px black;}
+#uluse{display: flex;
+width: 100%;
+position: relative;
+top: 42px;
+left: 100px;
+line-height: 30px;
+text-align: center;}
+#uluse ul{list-style: none;}
+.logo{margin: 0;}
+.final2div{position: relative;
+left:70px;}
+#email{   
+    font-size: 16px;
+    color: #1c1c1c;
+    height: 46px;
+    border: 1px solid #ededed;
+width: 260px;}
+#form{display: flex;}
+#buttons{position: relative;
+top: 20px;}
+#buttons button {display: inline-block;
+
+    font-size: 16px;
+    color: #404040;
+    width: 30px;
+    gap: 20px;
+    text-align: center;}
+    #buttons  :hover{background-color: #7fad39;
+    fill: white;
+transition: 0.2s;}
+.btuonsvg{
+    width: 16px;
+
+    border-radius: 50%;
+}
+
+.btuonsvg2{
+    width: 10px;
+
+    border-radius: 50%;
+}
+#copy svg{height: 16px;
+position: relative;
+top: 16px;
+left: 3px;}
+#copy{display: flex;}
+#copy p{border: solid 1px;}
+p a{text-decoration: none;}

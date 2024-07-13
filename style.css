@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    box-sizing: border-box;
     width: 100%;
     
 }
@@ -43,13 +42,10 @@ header svg {
     display: grid;
     grid-template-columns: 1fr 1.3fr 1.3fr 1.3fr 1.4fr 1fr 1fr;
     grid-template-rows: 80px 80px 431px 270px;
-    border: solid 1px;
     justify-content: center;
 }
 
-#main div {
-    border: solid 1px;
-}
+
 
 #logo {
     grid-column: 2;

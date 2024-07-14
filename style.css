@@ -360,12 +360,10 @@ top: 20px;}
 #final{display: grid;
 grid-template-columns: 1fr 1.2fr 1.3fr;
 grid-template-rows: 2fr 0.4fr;
-width: 100%;
-border: solid 1px black;}
+width: 100%;}
 .useful{color: #1c1c1c;
     font-weight: 700;
     position: relative;}
-#final div{border: solid 1px black;}
 #uluse{display: flex;
 width: 100%;
 position: relative;

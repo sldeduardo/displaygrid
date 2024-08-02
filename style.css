@@ -1,24 +1,55 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Pseudoelementos e Pseudoclasses</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <main>
-        <section>
-            <h2>Exemplo de Pseudoclasses</h2>
-            <p class="hover-example">Passe o mouse sobre este texto para ver a pseudoclasse :hover.</p>
-            <p class="focus-example" tabindex="0">Clique ou navegue até este texto para ver a pseudoclasse :focus.</p>
-            <p class="active-example">Clique neste texto para ver a pseudoclasse :active.</p>
-        </section>
-        <section>
-            <h2>Exemplo de Pseudoelementos</h2>
-            <p class="before-example">Texto com o pseudoelemento ::before.</p>
-            <p class="after-example">Texto com o pseudoelemento ::after.</p>
-        </section>
-    </main>
-</body>
-</html>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    margin: 20px 0;
+}
+section {
+    margin-bottom: 20px;
+}
+.hover-example:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.focus-example:focus {
+    outline: 2px solid blue;
+    background-color: #e0e0e0;
+}
+
+.active-example:active {
+    color: green;
+}
+.before-example::before {
+    content: '🔹 ';
+    color: blue;
+}
+.after-example::after {
+    content: ' 🔸';
+    color: orange;
+}
